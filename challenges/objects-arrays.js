@@ -70,8 +70,12 @@ const graduates = [{"id":1,"first_name":"Cynde","university":"Missouri Southern 
 /* Request 1: Create a new array called universities that contains all the univeristies in the graduates array.  
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
-const universities = ["Missouri Southern State College", "The School of the Art Institute of Chicago", "Marian College", "International Medical & Technological University", "Sultan Salahuddin Abdul Aziz Shah Polytechnic", "Fachhochschule Rosenheim, Hochschule für Technik und Wirtschaft", "Salem University", "Coastal Carolina University", "Universidad Católica de Ávila", "Universitat Rovira I Virgili Tarragona"];
-universities.sort()
+const universities = [];
+function sortUnis(unisNames) {
+  return unisNames.sort();
+}
+graduates.map(sortUnis);
+
 console.log(universities)
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. 
@@ -86,13 +90,13 @@ console.log(contactInfo);
 
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
-const uni = [];
-function checkUni(university) {
-  if(graduates.)
-}
-graduates.forEach(checkUni);
-console.log(uni);
-
+// const uni = [];
+// function checkUni(uniName) {
+//   uni.push(uniName.university.includes("Uni"));
+// }
+// graduates.forEach(checkUni);
+// console.log(uni);
+const uni = 
 
 // ==== ADVANCED Array Methods ====
 
