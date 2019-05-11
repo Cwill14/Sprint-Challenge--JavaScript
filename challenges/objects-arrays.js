@@ -154,6 +154,12 @@ const populationTotal = zooAnimals.reduce(function(total, x) {return total + x.p
 
 console.log(populationTotal);
 
+
+// let totalWeight = 0;
+// for(let i = 0; i < animals.length; i++) {
+// 		totalWeight += animals[i].weight;
+// }
+// console.log(`REDUCING ANIMAL WEIGHTS: [${totalWeight}]`);
 // stilll don't really understand reduce
 /* 
 

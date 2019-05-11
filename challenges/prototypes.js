@@ -7,7 +7,7 @@
 */
 function CuboidMaker(properties) {
   this.length = properties.length;
-  this.width - properties.width;
+  this.width = properties.width;
   this.height = properties.height;
 }
 
@@ -41,5 +41,6 @@ const cuboid = new CuboidMaker({
 // Test your volume and surfaceArea methods by uncommenting the logs below:
 console.log(cuboid.volume()); // 100
 console.log(cuboid.surfaceArea()); // 130
-
-
+console.log(cuboid);
+console.log(CuboidMaker);
+console.log(cuboid.width);
