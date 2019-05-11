@@ -30,22 +30,43 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    ".forEach()" runs throught the whole array, and modifies the original, whereas ".map()" runs through it but returns in a new array, leaving the original unchanged.
+
 2. What is the difference between a function and a method?
+
+    A method is just a word for a function inside of an object as a property.
 
 3. What is closure?
 
+    closure is the scope of variables in functions, like how variables outside of the function can be used inside of the function, but not vice versa.
+
 4. Describe the four rules of the 'this' keyword.
 
+    it can be set in four ways:
+
+        implicit binding:
+            where "this" is referring to whatever is left of the dot when the function is invoked.
+        window/global binding:
+            where "this is not given context, it will refer to the global/window object.
+        new binding:
+            where "this" is referring to the object created by a constructor function, using the "new" keyword.
+        explicit binding:
+            where "this" is manually defined by using the mthods ".call()" and ."apply()".
+
+
+
 5. Why do we need super() in an extended class?
+
+    "super()" replaces the ".call()" that we use to apply the parent's properties/prototypes to the child class that super is in.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
@@ -70,7 +91,7 @@ Test your knowledge of objects and arrays.
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+* [x] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
